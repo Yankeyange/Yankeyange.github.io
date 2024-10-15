@@ -1,0 +1,133 @@
+body, html {
+  height: 220%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Couleur de fond claire pour contraste */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cafe-border {
+  background-color: #6F4E37; /* Café brun pour la bordure de fond */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optionnel pour un peu de style */
+  width: 80%; /* Largeur par défaut */
+  text-align: left;
+}
+
+.content {
+  background-color: white; /* Fond blanc pour le contenu */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Centrer le texte */
+  text-align: left;
+}
+
+/* Pour les écrans larges (par exemple, 1440px et plus) */
+@media (min-width: 1440px) {
+  .cafe-border {
+      width: 60%; /* Ajuste la largeur pour les grands écrans */
+      padding: 40px; /* Ajuste le padding pour les grands écrans */
+  }
+
+  .content {
+      padding: 40px; /* Ajuste le padding pour les grands écrans */
+  }
+}
+
+/* Pour les écrans moyens (par exemple, entre 768px et 1439px) */
+@media (min-width: 768px) and (max-width: 1439px) {
+  .cafe-border {
+      width: 70%; /* Ajuste la largeur pour les écrans moyens */
+      padding: 30px; /* Ajuste le padding pour les écrans moyens */
+  }
+}
+
+/* Pour les petits écrans (par exemple, moins de 768px) */
+@media (max-width: 767px) {
+  .cafe-border {
+      width: 90%; /* Ajuste la largeur pour les petits écrans */
+      padding: 20px; /* Ajuste le padding pour les petits écrans */
+  }
+}
+
+header {
+  
+    margin-bottom: 20px; /* Espace sous l'image */
+    text-align: center;
+
+}
+.image-omelette {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid transparent; /* Bordure transparente */
+    border-top-left-radius: 15px; /* Coin supérieur gauche */
+    border-top-right-radius: 15px; /* Coin supérieur droit */
+    border-bottom-left-radius: 15px; /* Coin inférieur gauche */
+    border-bottom-right-radius: 15px; /* Coin inférieur droit */ 
+}
+
+.preparation-time {
+  background-color: #00008B; 
+  border: 5px solid transparent; /* Bordure transparente */
+  border-top-left-radius: 15px; /* Coin supérieur gauche */
+  border-top-right-radius: 15px; /* Coin supérieur droit */
+  border-bottom-left-radius: 15px; /* Coin inférieur gauche */
+  border-bottom-right-radius: 15px; /* Coin inférieur droit */ 
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p, .preparation-time {
+  font-size: 16px;
+}
+
+h2{
+  color: brown;
+}
+
+ol li {
+  padding-left: 20px; /* Espacement entre le chiffre et le texte */
+}
+
+
+ol li::marker {
+  color: brown; /* Remplace 'red' par la couleur de ton choix */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.attribution {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.footer-right h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
